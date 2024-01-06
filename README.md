@@ -40,16 +40,29 @@ version 34 : DistilBERT gave notebook timeout error so reducing epochs to reduce
 Results :
 
 XGBoost default : 0.276
+
 XGBoost learning rate 0.01 : 0.357
+
 XGBoost learning rate 0.005 : 0.442
+
 XGBoost learning rate 0.005 n_estimators 150 : 0.363
+
 SVM default : 0.325
+
 Logistic regression : 0.283
+
 DistilBERT learning rate 0.0001 : 0.369
+
 BERT learning rate 0.0001 6600 rows : 0.643
+
 BERT learning rate 0.0001 10660 rows (duplicates removed) : 0.668
+
 BERT learning rate 0.0005 10660 rows : 0.758
+
 BERT learning rate 0.0007 11650 rows : 0.643
+
 BERT learning rate 0.0005 19000 rows : 0.499 (version 31)
+
 BERT learning rate 0.0005 DAIGT dataset : 0.484
+
 DistilBERT learning rate 0.0005 DAIGT dataset : 0.591
